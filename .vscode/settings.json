@@ -1,0 +1,48 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "172.25.41.96",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "ubuntu-prosgres",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "!30DBrootPW48"
+        },
+        {
+            "previewLimit": 50,
+            "server": "172.25.41.96",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "ubuntu-postgres",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "!30DBrootPW48"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "172.25.41.96",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "ubuntu-mariadb",
+            "database": "mysql",
+            "username": "root",
+            "password": "!30DBrootPW48"
+        },
+        {
+            "previewLimit": 50,
+            "server": "172.25.33.21",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "ubuntu-postgres",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "!30DBrootPW48"
+        }
+    ]
+}
